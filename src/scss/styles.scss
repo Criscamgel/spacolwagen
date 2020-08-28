@@ -28,11 +28,12 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 
 .mat-horizontal-stepper-header .mat-step-icon-selected{
     background-color: #F2DE46 !important;
-    color: black;
+    color: black !important;
 }
 
 .mat-step-icon{
     background-color: $colorSecundario !important;
+    color: white !important;
 }
 
 /* Botones */
