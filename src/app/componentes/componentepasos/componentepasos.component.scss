@@ -8,6 +8,6 @@
         grid-template-columns: 20% auto 20%;
     }
     @include tabletLaptop(){
-        grid-template-columns: $margenContenido 50% 45%;
+        grid-template-columns: $margenContenido 40% 55%;
     }
 }
