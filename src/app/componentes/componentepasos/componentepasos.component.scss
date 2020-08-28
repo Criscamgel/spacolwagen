@@ -4,7 +4,10 @@
 .contenedor{
     display: grid;
     grid-template-columns: $margenContenido auto $margenContenido;
+    @include smallTablet(){
+        grid-template-columns: 20% auto 20%;
+    }
     @include tabletLaptop(){
-        grid-template-columns: $margenContenido auto 55%;
+        grid-template-columns: $margenContenido 50% 45%;
     }
 }

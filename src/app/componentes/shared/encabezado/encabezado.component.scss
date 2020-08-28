@@ -17,8 +17,11 @@
         }
         img{
             width: 30%;
+            @include smallTablet(){
+                width: 15%;
+            }            
             @include tabletLaptop(){
-                width: 25%;
+                width: 20%;
             }
         }
     }

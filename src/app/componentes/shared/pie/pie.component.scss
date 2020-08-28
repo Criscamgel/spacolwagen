@@ -3,11 +3,17 @@
 
 .container{
     display: grid;
-    grid-template-columns: $margenFooter auto $margenFooter;
+    grid-template-columns: $margenContenido auto $margenContenido;
     padding: 10px 0;
     color: white;
+    @include Asmall(){
+        color: black;
+    }
+    @include smallTablet(){
+        grid-template-columns: 20% auto 20%;
+    }
     @include tabletLaptop(){
-        grid-template-columns: $margenFooter auto 55%;
+        grid-template-columns: $margenContenido 50% 45%;
     }
     p{
         font-size: 8px;

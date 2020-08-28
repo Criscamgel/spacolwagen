@@ -7,7 +7,7 @@
 @include mat-core();
 
 $my-app-primary: mat-palette($mat-red);
-$my-app-accent: mat-palette($mat-red, A400, A400, A400);
+$my-app-accent: mat-palette($mat-gray, A400, A400, A400);
 $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 
 @include angular-material-theme($my-app-theme);
@@ -27,7 +27,8 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 }
 
 .mat-horizontal-stepper-header .mat-step-icon-selected{
-    background-color: $colorPrimario !important;
+    background-color: #F2DE46 !important;
+    color: black;
 }
 
 .mat-step-icon{
@@ -101,7 +102,7 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
     grid-row: 1 !important;
     margin: 0 -40px !important;
     @include tabletLaptop(){
-        margin: 0 -70px !important;
+        margin: 0 -60px !important;
     }
   }
 
@@ -135,6 +136,7 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 
   .centro {
     justify-self: center;
+    width: 100%;
   }
 
   .full-width{
@@ -172,10 +174,13 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
     display: grid;
     grid-template-columns: 50% auto;
     @include tabletLaptop(){
-        grid-template-columns: 75% auto;
+        grid-template-columns: 60% auto;
     }
     button{
         grid-column: 2;
+        @include Asmall(){
+            grid-column: 1/3;
+        }
     }
 }
 
@@ -203,7 +208,15 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 .mat-horizontal-content-container{
     background-color: $colorSeis;
     border-radius: 5px;
-    padding: 10 20px !important;
+    padding: 10px 20px !important;
+    @include Asmall(){
+        padding: 20 20px !important;
+        border-radius: 10px;
+        border: solid 1px #d7d7d7;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 7px #d7d7d7;
+    }
 }
 
 .mat-form-field-appearance-outline .mat-form-field-outline{
