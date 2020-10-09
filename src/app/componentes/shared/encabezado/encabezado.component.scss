@@ -13,31 +13,14 @@
         grid-template-columns: $margenContenido auto 55%;
     }
     .contLogo{
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        text-align: center;
         padding: 10px 0;
-        .cliente{
-            align-self: center;
-            justify-self: left;
-            width: 40%;
-            @include smallTablet(){
-                width: 45%;
-            }            
-            @include tabletLaptop(){
-                width: 40%;
-            }
+        text-align: left;
+        @include Asmall(){
+            text-align: center;
         }
-        .santander{
-            align-self: center;
-            justify-self: right;
-            width: 55%;
-            @include smallTablet(){
-                width: 55%;
-            }            
-            @include tabletLaptop(){
-                width: 50%;
-            }
+        .cliente{
+            width: 15%;           
+            
         }
     }
 }

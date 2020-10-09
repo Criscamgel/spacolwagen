@@ -27,8 +27,8 @@ export const Constantes = {
         {value: 3, name: 'NIT'}
     ],
 
-    username: "Colwagen",
-    password: "ColwagenSC2020",
+    username: "Ducati",
+    password: "Duc@t1*",
 
     tyc: {
         titulo: `TERMINOS Y CONDICIONES PORTAL ${nombreCliente}`,
@@ -47,7 +47,7 @@ export const Constantes = {
     aprobado: './assets/img/aprobado.png',
     negado: './assets/img/negado.png',
     fondo: './assets/img/fondo.png',
-    cliente: './assets/img/logoColwagen.png',
+    cliente: './assets/img/ducati.svg',
     santander: './assets/img/consumerFinance.png',
     santanderGris: './assets/img/consumerFinanceGris.png',
     santanderBlanco: './assets/img/consumerFinanceBlanco.png'
