@@ -1,4 +1,4 @@
-const nombreCliente = 'ColWagen';
+const nombreCliente = 'Ducati';
 
 export const Constantes = {
     periodos: [48, 60, 72, 84],
