@@ -47,8 +47,9 @@ export const Constantes = {
     aprobado: './assets/img/aprobado.png',
     negado: './assets/img/negado.png',
     fondo: './assets/img/fondo.png',
-    cliente: './assets/img/ducati.svg',
+    cliente: './assets/img/ducati.png',
     santander: './assets/img/consumerFinance.png',
     santanderGris: './assets/img/consumerFinanceGris.png',
-    santanderBlanco: './assets/img/consumerFinanceBlanco.png'
+    santanderBlanco: './assets/img/consumerFinanceBlanco.png',
+    moto: './assets/img/moto.svg'
 }

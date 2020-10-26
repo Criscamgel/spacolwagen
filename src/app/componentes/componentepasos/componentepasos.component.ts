@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConsultaCentralesService } from 'src/app/servicios/consultaCentrales.service';
+import { Constantes } from 'src/constantes/constantes';
 
 @Component({
   selector: 'app-componentepasos',
@@ -7,6 +8,8 @@ import { ConsultaCentralesService } from 'src/app/servicios/consultaCentrales.se
   styleUrls: ['./componentepasos.component.scss']
 })
 export class ComponentepasosComponent implements OnInit {
+
+  const = Constantes;
 
   constructor(public consultaCentrales: ConsultaCentralesService) { }
 

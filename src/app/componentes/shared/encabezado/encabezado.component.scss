@@ -10,17 +10,24 @@
         grid-template-columns: 20% auto 20%;
     }  
     @include tabletLaptop(){
-        grid-template-columns: $margenContenido auto 55%;
+        grid-template-columns: 5% 90% 5%;
     }
     .contLogo{
         padding: 10px 0;
-        text-align: left;
+        display: grid;
+        grid-template-columns: repeat(2,50%);
         @include Asmall(){
             text-align: center;
         }
         .cliente{
-            width: 15%;           
-            
+            width: 10%;
+            align-self: center;
+            justify-self: left;    
+        }
+        .santander{
+            width: 18%;
+            align-self: center;
+            justify-self: right;  
         }
     }
 }

@@ -13,7 +13,7 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 @include angular-material-theme($my-app-theme);
 
 * {
-    font-family: Ducati font;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -29,11 +29,13 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 .mat-horizontal-stepper-header .mat-step-icon-selected{
     background-color: #FE000C !important;
     color: white !important;
+    border: none !important;
 }
 
 .mat-step-icon{
-    background-color: $colorSecundario !important;
-    color: white !important;
+    background-color: white !important;
+    color: black !important;
+    border: solid 2px #000;
 }
 
 /* Botones */
@@ -50,13 +52,16 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
     display: grid !important;
     grid-template-columns: repeat(3, auto) !important;
     grid-template-rows: 1fr !important;
-    padding: 15px 10px 0 10px; 
+    padding: 10px;
+    height: 70px;
+    background-image: url(../assets/img/moto.svg);
+    background-repeat: no-repeat;
+
     
     @include tabletLaptop(){
-        padding: 20px 20px 0 20px;
+        /* padding: 20px 20px 0 20px; */
     }
   }
-  
   .mat-step-icon .mat-icon, .mat-step-icon-content{
     text-align: center;
   }
@@ -89,7 +94,8 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
   }
   
   .mat-step-icon .mat-icon, .mat-step-icon-content {
-    font-size: 11px !important;
+    font-size: 13px !important;
+    font-weight: bold;
   }
   /* Orden de los componentes */
   .mat-step-label{
@@ -99,7 +105,7 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
   
   /* Línea */
   .mat-stepper-horizontal-line{
-    border: 1px solid !important;
+    border: 0.1px dashed #949494 !important;
     grid-row: 1 !important;
     margin: 0 -40px !important;
     @include tabletLaptop(){
@@ -120,7 +126,8 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
   }
 
   p.izquierda{
-      font-weight: 800;  
+    font-weight: 500;
+    font-size: 14px; 
   }
   p.derecha{
       color: $colorTerciario;  
@@ -200,16 +207,19 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 .mat-horizontal-stepper-header-container{
     background-color: $colorSeis;
     margin: 10px 0;
-    border-radius: 5px;
+    border-radius: 25px;
     @include tabletLaptop(){
-        margin: 25px 0;
+        margin: 25px 0px 10px 0px;
     }
 }
 
 .mat-horizontal-content-container{
     background-color: $colorSeis;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 10px 20px !important;
+    background-image: url(../assets/img/fondoStep.svg);
+    background-repeat: no-repeat;
+
     @include Asmall(){
         padding: 20 20px !important;
         border-radius: 10px;
