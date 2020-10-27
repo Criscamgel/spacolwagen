@@ -22,12 +22,18 @@
         .cliente{
             width: 10%;
             align-self: center;
-            justify-self: left;    
+            justify-self: left;
+            @include Asmall(){
+                width: 30%;
+            }    
         }
         .santander{
             width: 18%;
             align-self: center;
-            justify-self: right;  
+            justify-self: right;
+            @include Asmall(){
+                width: 55%;
+            }  
         }
     }
 }

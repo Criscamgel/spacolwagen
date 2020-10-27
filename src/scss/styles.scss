@@ -56,12 +56,11 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
     height: 70px;
     background-image: url(../assets/img/moto.svg);
     background-repeat: no-repeat;
-
-    
-    @include tabletLaptop(){
-        /* padding: 20px 20px 0 20px; */
+        @include Asmall(){
+            background-image: none;
+        }
     }
-  }
+  
   .mat-step-icon .mat-icon, .mat-step-icon-content{
     text-align: center;
   }
