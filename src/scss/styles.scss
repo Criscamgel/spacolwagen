@@ -126,7 +126,10 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 
   p.izquierda{
     font-weight: 500;
-    font-size: 14px; 
+    font-size: 14px;
+    @include Asmall(){
+        font-size: 12px;
+    } 
   }
   p.derecha{
       color: $colorTerciario;  
@@ -236,4 +239,10 @@ $my-app-theme: mat-light-theme($my-app-accent, $my-app-accent);
 
 select.mat-input-element:not(:disabled) {
     font-size: 12px !important;
+}
+
+.oldDesk{
+    @include Asmall(){
+        display: none;
+    }
 }
