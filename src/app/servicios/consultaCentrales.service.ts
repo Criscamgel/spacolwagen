@@ -30,7 +30,7 @@ export class ConsultaCentralesService {
       ValorFinanciar: null,
       UsuarioRadica: 'k.maldonadoo',
       ConcesionarioRadicacion: 99,
-      IdentificacionVendedor: 121,
+      IdentificacionVendedor: 13,
     },
     DatosVehiculo: {
       Marca: 22
