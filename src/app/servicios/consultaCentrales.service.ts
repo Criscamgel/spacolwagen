@@ -28,7 +28,7 @@ export class ConsultaCentralesService {
       AutorizaConsultaCentrales: false,
       AutorizaMareigua: false,
       ValorFinanciar: null,
-      UsuarioRadica: 'k.maldonadoo',
+      UsuarioRadica: null,
       ConcesionarioRadicacion: 99,
       IdentificacionVendedor: null,
       InfoTres: 'camilo.guio@vasslatam.com;a.quinterov@ext.santanderconsumer.co;m.garciam@santanderconsumer.co;paola.gonzalez@ext.santander.com.co'
