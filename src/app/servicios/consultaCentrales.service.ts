@@ -31,7 +31,7 @@ export class ConsultaCentralesService {
       UsuarioRadica: null,
       ConcesionarioRadicacion: 99,
       IdentificacionVendedor: null,
-      InfoTres: 'camilo.guio@vasslatam.com;a.quinterov@ext.santanderconsumer.co;m.garciam@santanderconsumer.co;paola.gonzalez@ext.santander.com.co'
+      InfoTres: 'ltafur@domingoalonsogroup.com;sebastianmartinez@colwagen.com;estefaniapinilla@finazul.co;j.caceresc@santanderconsumer.co'
     },
     DatosVehiculo: {
       Marca: 25
