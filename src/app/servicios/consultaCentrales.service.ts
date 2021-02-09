@@ -28,9 +28,10 @@ export class ConsultaCentralesService {
       AutorizaConsultaCentrales: false,
       AutorizaMareigua: false,
       ValorFinanciar: null,
-      UsuarioRadica: 'k.maldonadoo',
+      UsuarioRadica: null,
       ConcesionarioRadicacion: 99,
-      IdentificacionVendedor: 13,
+      IdentificacionVendedor: null,
+      InfoTres: 'ltafur@domingoalonsogroup.com;sebastianmartinez@colwagen.com;estefaniapinilla@finazul.co;j.caceresc@santanderconsumer.co'
     },
     DatosVehiculo: {
       Marca: 22
@@ -64,8 +65,7 @@ export class ConsultaCentralesService {
   autenticando() {
 
     const bodyT = {
-      Username: this.const.username,
-      Password: this.const.password
+      UserPass: this.const.userpass,
     };
 
     const body = new HttpParams({fromObject: bodyT});
