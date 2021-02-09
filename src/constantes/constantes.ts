@@ -27,8 +27,7 @@ export const Constantes = {
         {value: 3, name: 'NIT'}
     ],
 
-    username: "Ducati",
-    password: "Duc@t1*",
+    userpass: "RAB1AGMAYQB0AGkAOgBEAHUAYwBAAHQAMQAqAA==",
 
     tyc: {
         titulo: `TERMINOS Y CONDICIONES PORTAL ${nombreCliente}`,

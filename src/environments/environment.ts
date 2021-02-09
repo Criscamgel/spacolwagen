@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  urlA: "https://apitst.premiercredit.co:11445/PremierServices_api_ext_tst/api/login/authenticate",
+  urlA: "https://api.premiercredit.co:11444/PremierServices_API_EXT/api/login/authenticateEncoded",
   urlV: "https://apitst.premiercredit.co:11445/premierservices_api_ext_tst/api/viabilizacion/getViabilizacion"
 };
 
