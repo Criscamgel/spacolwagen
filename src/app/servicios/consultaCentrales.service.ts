@@ -34,7 +34,7 @@ export class ConsultaCentralesService {
       InfoTres: 'camilo.guio@vasslatam.com;a.quinterov@ext.santanderconsumer.co;m.garciam@santanderconsumer.co;paola.gonzalez@ext.santander.com.co'
     },
     DatosVehiculo: {
-      Marca: 22
+      Marca: 25
     }
   };
 
