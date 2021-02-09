@@ -30,7 +30,8 @@ export class ConsultaCentralesService {
       ValorFinanciar: null,
       UsuarioRadica: 'k.maldonadoo',
       ConcesionarioRadicacion: 99,
-      IdentificacionVendedor: 13,
+      IdentificacionVendedor: null,
+      InfoTres: 'camilo.guio@vasslatam.com;a.quinterov@ext.santanderconsumer.co;m.garciam@santanderconsumer.co;paola.gonzalez@ext.santander.com.co'
     },
     DatosVehiculo: {
       Marca: 22
