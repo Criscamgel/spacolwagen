@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Constantes } from '../constantes/constantes';
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { ConsultaCentralesService } from './servicios/consultaCentrales.service';
+import { ScanparamsService } from './servicios/scanparams.service';
 
 @Component({
   selector: 'app-root',
@@ -24,8 +25,11 @@ export class AppComponent {
   const = Constantes;
   splash = true;
 
-  constructor(public consultaCentrales: ConsultaCentralesService) {
+  constructor(public consultaCentrales: ConsultaCentralesService,
+    public scanParams: ScanparamsService
+    ) {
     this.splashToggle();
+    this.scanParams.getParams();
   }
 
   splashToggle() {
