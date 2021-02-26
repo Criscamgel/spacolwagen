@@ -13,7 +13,6 @@ export class ScanparamsService {
   constructor(private route: ActivatedRoute) { }
 
     getParams() {
-      console.log('ScanParams');
       this.route.queryParams.subscribe((data: any) => {
 
       if (data.utm_source) {
